@@ -34,7 +34,7 @@ const Cart = () => {
           <div className="mt-5 col-12">
             <button className="btn btncheckout">
               <span className="btnleft"> checkout </span>{" "}
-              <span className="btnright"> ${price}</span>
+              <span className="btnright"> ${price.toFixed(2)}</span>
             </button>
           </div>
         )}
