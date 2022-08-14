@@ -1,0 +1,98 @@
+.cartbox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    z-index: 9999;
+    top: 11%;
+    right: 10%;
+}
+
+.cartheading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.396px;
+    color: #000000;
+}
+
+.img-fluids {
+    border-radius: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.actions {
+    width: 50px;
+    height: 50px;
+    background: #F9F8F6;
+    border-radius: 50px;
+    border: 0px;
+}
+
+.actionItems {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    position: absolute;
+    margin-top: -42px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.actionItemsb {
+    text-align: center;
+    display: block;
+    font-size: 42px;
+    position: absolute;
+    margin-top: -36px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+span.items {
+    margin-left: -19px;
+    font-size: 20px;
+}
+
+span.quantity {
+    font-size: 29px;
+}
+
+.col-2.mt-6 {
+    margin-top: 3.5rem;
+}
+
+.remove {
+    margin-left: 30%;
+    color: red;
+}
+
+.btncheckout {
+    width: 100%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #292929;
+    background: #FDC913;
+    border-radius: 25px;
+    border: none;
+    font-size: 19px;
+}
+
+.btnleft {
+    float: left;
+    color: white;
+}
+
+.btnright {
+    float: right;
+    color: white;
+}
