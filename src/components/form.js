@@ -1,13 +1,10 @@
-import { useState } from "react";
 import useInput from "../hooks/useInput";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { computeHeadingLevel } from "@testing-library/react";
 
 let publicurl = process.env.REACT_APP_PUBLIC_URL;
 
 const Form = () => {
-  const [message, setMessage] = useState("");
   const {
     value: enteredName,
     isValid: enteredNameisValid,
@@ -44,7 +41,7 @@ const Form = () => {
 
   const formSubmitHandler = (e) => {
     e.preventDefault();
-    var message = [];
+
     var jsonData = {
       name: enteredName,
       email: enteredEmail,
@@ -70,9 +67,9 @@ const Form = () => {
         console.log("Error Occurred in Function Call Event.");
       });
 
-    // resetNameInput();
-    // resetEmailInput();
-    // resetpassInput();
+    resetNameInput();
+    resetEmailInput();
+    resetpassInput();
   };
   return (
     <>
